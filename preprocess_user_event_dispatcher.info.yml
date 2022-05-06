@@ -1,0 +1,8 @@
+name: Preprocess User Event Dispatcher
+type: module
+description: Provide extra user proprecess events
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Hook events
+dependencies:
+  - hook_event_dispatcher:hook_event_dispatcher

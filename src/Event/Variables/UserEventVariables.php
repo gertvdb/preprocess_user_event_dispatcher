@@ -29,4 +29,14 @@ class UserEventVariables extends AbstractEntityEventVariables {
     return $this->variables['user'];
   }
 
+  /**
+   * Get the view mode.
+   *
+   * @return string
+   *   View mode.
+   */
+  public function getViewMode(): string {
+    return $this->variables['elements']['#view_mode'];
+  }
+
 }
